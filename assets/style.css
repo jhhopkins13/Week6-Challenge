@@ -1,0 +1,56 @@
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#search-container input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#search-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#current-weather {
+  margin-bottom: 20px;
+}
+
+#forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.forecast-card {
+  width: calc(100% / 5 - 10px);
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+#search-history {
+  margin-top: 20px;
+}
+
+.history-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
